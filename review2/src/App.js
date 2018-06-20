@@ -11,6 +11,9 @@ class App extends Component {
     username: "jon is da best"
   }
   
+  userNameChangeHandler = (event) => {
+    this.setState({username: event.target.value})
+  }
   
   
   render() {
