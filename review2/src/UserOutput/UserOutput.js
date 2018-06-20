@@ -1,14 +1,12 @@
 import React from 'react';
 
 
-const userOutput = () => {
+const userOutput = (props) => {
   return (
       <div>
-        <p>Some random text </p>
+        <p>Username: {props.userName} </p>
         <p> Some more radnom text</p>
       </div>  
   );
 };
-
-
 export default userOutput;

@@ -23,7 +23,9 @@ class App extends Component {
         </ol>
         
         <UserInput />
-        <UserOutput />
+        <UserOutput userName="Jon" />
+        <UserOutput userName="Nick"/>
+        <UserOutput userName="Miso"/>
     
         
         
